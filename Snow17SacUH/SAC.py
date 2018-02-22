@@ -11,7 +11,7 @@ import util
 #======================================================
 controlFileName = "SAC.txt"
 appInputFiles = ["sample_model/input/params/sac_params.HHWM8.txt"]
-appInputTmplts = ["sac_params.HHWM8.txt.Tmplt"]
+appInputTmplts = ["sac_params.HHWM8.txt.tmplt"]
 
 #######################################################
 # FUNCTION: GENERATE MODEL INPUT FILE
