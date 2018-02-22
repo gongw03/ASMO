@@ -1,7 +1,7 @@
 # ASMO
 This is a standalone version of ASMO, a surrogate based single objective optimization algorithm.
 
-Quick start: please run Ackley/Ackley\_ASMO.py to start your first run. For more information about ASMO, please read the paper. And please cite it if you use the code in your own research.
+Quick start: please run Ackley/Ackley\_ASMO.py to start your first run. For more information about ASMO, please read the paper. And please cite it if you use the code in your own research.   
 Wang, C., Duan, Q., Gong, W., Ye, A., Di, Z., & Miao, C. (2014). An evaluation of adaptive surrogate modeling based optimization with two benchmark problems. Environmental Modelling & Software, 60(0), 167-179. https://doi.org/10.1016/j.envsoft.2014.05.026
 
 Two test cases with the test function Ackley.
