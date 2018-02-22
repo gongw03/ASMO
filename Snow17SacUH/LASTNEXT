@@ -1,0 +1,12 @@
+LAST
+ * got the converted model to run
+ * streamlined the state file functionality
+
+NEXT 
+ * still need to check on that tprev error
+
+NOTES: 
+ * pgfortran is twice as fast as the gfortran compiler
+ * almost no small differences after 46 yr run -- mainly in combined file due ot 
+   different precision on areas
+
