@@ -20,4 +20,6 @@ Two test cases.
 Other files in directory Snow17SacUH (abbrev. SAC):
 1. SAC.py: model driver file that put the parameter value in the parameter files that Snow17SacUH can read, run the model, and compute objective function (Here we use RMSE).
 2. SAC.txt: the parameter name, lower bound, upper bound.
-3. sac\_params.HHWM8.txt.tmplt: parameter templete file, replace string "UQ\_xxxx" in this file and generate parameter file sac\_params.HHWM8.txt for the model to load.
+3. sac\_params.HHWM8.txt.tmplt: sac parameter templete file, replace string "UQ\_xxxx" in this file and generate parameter file sac\_params.HHWM8.txt for the model to load.
+4. snow17\_params.HHWM8.txt.tmplt: snow17 parameter templete file.
+5. uh\_params.HHWM8.txt.tmplt: unit hydrograph parameter templete file.
