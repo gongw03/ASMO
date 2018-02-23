@@ -1,2 +1,0 @@
-state file output contains states for all days in the run, arranges one row per day
-state file input has same format, and can contain any number of dates

@@ -1,3 +1,0 @@
-hru_id HHWM8IL HHWM8IU 
-unit_shape 1.1280 1.1280 
-unit_scale 2.55645 2.97368 

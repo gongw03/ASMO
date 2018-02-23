@@ -1,12 +1,12 @@
 hru_id HHWM8IL HHWM8IU 
 latitude 47.78 47.78
 elev 1612.50 2153.35
-scf 2.15177 1.86124 
-mfmax 0.930472 0.754924 
+scf UQ_scf_L UQ_scf_U
+mfmax UQ_mfmax_L UQ_mfmax_U 
 mfmin 0.137 0.160 
-uadj 0.003103 0.208042 
+uadj UQ_uadj_L UQ_uadj_U
 si 1515.00 1515.00 
-pxtemp 0.713424 0.220934 
+pxtemp UQ_pxtemp_L UQ_pxtemp_U
 nmf 0.150 0.150 
 tipm 0.200 0.050 
 mbase 0.000 0.000 

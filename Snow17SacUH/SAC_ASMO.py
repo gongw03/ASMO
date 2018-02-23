@@ -24,7 +24,7 @@ xlb = bd[:,0]
 xub = bd[:,1]
 
 # run ASMO
-niter = 50
+niter = 100
 bestx, bestf, x, y = ASMO.optimization(model, nInput, xlb, xub, niter)
 
 print('Optimum found by ASMO:')

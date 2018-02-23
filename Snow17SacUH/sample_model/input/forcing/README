@@ -1,6 +1,0 @@
-This is a test case for version of Snow17SacUH that uses an external PET rather than estimating it internally using the Priestly-Taylor formulation. The 
-PET can be dummied in as a repeating static monthly cycle, similar to the way NWS runs models operationally, or vary daily.
-
-
-
-

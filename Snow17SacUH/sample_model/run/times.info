@@ -1,4 +1,0 @@
-# some benchmark run time info
-full 46 year run writing states & HRU outputs:  2.5s
-full run not writing states but writing HRU outputs:  1.1s
-full run not writing states or HRU outputs:  0.5s

@@ -1,9 +1,0 @@
-something odd about the program -- if don't have print statement after reading forcings, 
-they become corrupted somehow
-
-----------
-
-BUG:  when compiling with gfortran, there are big meltoff events whenever temps get above zero
-      -- as if the rain heat is not represented correctly
-
-      with PGF it seems fine -- need to diagnose
