@@ -37,6 +37,7 @@ def optimization(model, nInput, xlb, xub, niter, Xinit = None, Yinit = None,
     x = Xinit.copy()
     y = Yinit.copy()
 
+    bestf = np.inf
     for i in range(niter):
         print('Surrogate Opt loop: %d' % i)
         sm = gp.GPR_Matern(x, y, nInput, 1, x.shape[0], xlb, xub)
@@ -44,11 +45,14 @@ def optimization(model, nInput, xlb, xub, niter, Xinit = None, Yinit = None,
         bestx_list_sm, bestf_list_sm, icall_list_sm = \
             SCEUA.optimization(sm, nInput, xlb, xub, 
                                ngs, maxn, kstop, pcento, peps, verbose = False)
-        bestx = bestx_sm.copy()
-        bestf = model.evaluate(bestx)
+        bestx_tmp = bestx_sm.copy()
+        bestf_tmp = model.evaluate(bestx_tmp)
         icall += 1
-        x = np.vstack((x, bestx))
-        y = np.append(y, bestf)
+        x = np.vstack((x, bestx_tmp))
+        y = np.append(y, bestf_tmp)
+        if bestf_tmp < bestf:
+            bestf = bestf_tmp
+            bestx = bestx_tmp
 
     return bestx, bestf, x, y
 

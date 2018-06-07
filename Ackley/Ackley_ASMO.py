@@ -25,14 +25,18 @@ xub = bd[:,1]
 
 # run ASMO
 niter = 50
-bestx, bestf, x, y = ASMO.optimization(model, nInput, xlb, xub, niter)
+bestx, bestf, x, f = ASMO.optimization(model, nInput, xlb, xub, niter)
 
 print('Optimum found by ASMO:')
 print('bestx:')
 print(bestx)
 print('bestf:')
 print(bestf)
+print('x:')
+print(x)
+print('f:')
+print(f)
 
 # save results to bin file
-with open('%s/Ackley_ASMO.bin' % respath, 'w') as f:
-    cPickle.dump({'bestx': bestx, 'bestf': bestf, 'x': x, 'y': y}, f)
+with open('%s/Ackley_ASMO.bin' % respath, 'w') as fbin:
+    cPickle.dump({'bestx': bestx, 'bestf': bestf, 'x': x, 'f': f}, fbin)
